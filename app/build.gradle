@@ -3,9 +3,13 @@ plugins {
 }
 
 android {
+    buildFeatures{
+        dataBinding true
+    }
     compileSdk 32
 
     defaultConfig {
+
         applicationId "com.example.ferotdeikhujepai"
         minSdk 23
         targetSdk 32
