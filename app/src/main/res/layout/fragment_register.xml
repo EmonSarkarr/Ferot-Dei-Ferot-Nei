@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".RegisterFragment">
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,11 +49,5 @@
         android:text="Signup"
         android:layout_gravity="right"
         android:layout_marginTop="@dimen/loginViewsMargin"/>
-        <TextView
-        style="@style/parent"
-        android:textAlignment="textEnd"
-        android:textStyle="bold"
-        android:textColor="@color/primaryTextColor"
-        android:text="@string/login_signup_hint"
-        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
 </LinearLayout>

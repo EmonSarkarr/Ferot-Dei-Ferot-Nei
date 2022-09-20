@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355513543081",
+    "project_id": "haranojinishkhujepai",
+    "storage_bucket": "haranojinishkhujepai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355513543081:android:c4086d09ee5fb68d86fcb8",
+        "android_client_info": {
+          "package_name": "com.example.ferotdeikhujepai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355513543081-mn4pdeg2kq28lhqr4bvg2k6ttusr5ep9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOlA1Hjucc8k1VW-TuY_u6KRYJtjbPwC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355513543081-mn4pdeg2kq28lhqr4bvg2k6ttusr5ep9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
