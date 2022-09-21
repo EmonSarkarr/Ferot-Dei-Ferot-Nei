@@ -11,6 +11,9 @@
     <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
     <string name="login">LOGIN</string>
     <string name="forget_your_password">Forget Your Password</string>
+    <string name="logout">Logout</string>
+    <string name="ProductNameTV">ProductName Or Type</string>
+    <string name="detailsTV">ProductDetailsTV</string>
 
     <dimen name="headerTextSize">22sp</dimen>
     <dimen name="newsMoreTextSize">12sp</dimen>

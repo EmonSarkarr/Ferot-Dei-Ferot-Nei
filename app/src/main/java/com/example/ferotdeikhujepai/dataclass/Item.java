@@ -3,12 +3,12 @@ package com.example.ferotdeikhujepai.dataclass;
 public class Item {
     private String ProductName;
     private String ProductDescription;
-    private int image;
+    private int ProductImage;
 
     public Item(String productName, String productDescription, int image) {
         ProductName = productName;
         ProductDescription = productDescription;
-        this.image = image;
+        this.ProductImage = image;
     }
 
     public String getProductName() {
@@ -28,11 +28,11 @@ public class Item {
     }
 
     public int getImage() {
-        return image;
+        return ProductImage;
     }
 
     public void setImage(int image) {
-        this.image = image;
+        this.ProductImage = image;
     }
 
     @Override
@@ -40,7 +40,7 @@ public class Item {
         return "Item{" +
                 "ProductName='" + ProductName + '\'' +
                 ", ProductDescription='" + ProductDescription + '\'' +
-                ", image=" + image +
+                ", image=" + ProductImage +
                 '}';
     }
 }
