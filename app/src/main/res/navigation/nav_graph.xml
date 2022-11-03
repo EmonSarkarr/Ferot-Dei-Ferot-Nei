@@ -16,7 +16,7 @@
         android:label="fragment_post_feed"
         tools:layout="@layout/fragment_post_feed" >
         <action
-            android:id="@+id/action_postFeedFragment_to_loginFragment"
+            android:id="@+id/login_to_post_fragment"
             app:destination="@id/loginFragment" />
         <action
             android:id="@+id/action_postFeedFragment_to_addPostFragment"
@@ -33,7 +33,7 @@
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_loginFragment_to_registerFragment"
+            android:id="@+id/login_to_register_fragment_action"
             app:destination="@id/registerFragment" />
     </fragment>
 </navigation>

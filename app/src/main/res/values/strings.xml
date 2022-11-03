@@ -1,24 +1,41 @@
 <resources>
     <string name="app_name">Ferot Dei Khuje Pai</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login">LOGIN</string>
+    <string name="logout">Logout</string>
+    <string name="sign_upBTN">Signup</string>
 
     <string name="Register">Register a new account</string>
     <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Password</string>
-
-
     <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
-    <string name="login">LOGIN</string>
+
     <string name="forget_your_password">Forget Your Password</string>
-    <string name="logout">Logout</string>
+
     <string name="ProductNameTV">ProductName Or Type</string>
+
     <string name="detailsTV">ProductDetailsTV</string>
 
-    <dimen name="headerTextSize">22sp</dimen>
-    <dimen name="newsMoreTextSize">12sp</dimen>
-    <dimen name="loginCardRadius">20dp</dimen>
-    <dimen name="loginViewsMargin">20dp</dimen>
+    <string name="email_hint">Enter Your Email Address</string>
+    <string name="signup_msg">Don\'t have an account? Sign Up</string>
+    <string name="error_tv">Error TV</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="enter_your_email_id">Enter Your Email Id</string>
+    <string name="enter_your_password">Enter Your New Password</string>
+    <string name="enter_your_your_user_name">Enter Your Your User Name</string>
 
-    <dimen name="signup_text_margin_top">10dp</dimen>
+    <string name="already_have_a_account_sign_here">Already have a account? Sign Here</string>
+    <string name="welcome_to_bengal_software">Welcome To Bengal Software</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_your_password1">Enter Your Password</string>
+    <string name="register">Register</string>
+    <string name="ferotdei_ferotnet">Ferot Dei Ferot nei</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="forger_your_password">Forger Your Password</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="loginaction">Login</string>
+    <string name="hello_blank_fragment">hello</string>
+
 </resources>

@@ -19,6 +19,7 @@
 
     <!--colros for card-->
     <color name="whiteCardColor">#fff</color>
-
+    <color name="background_color">#DCF0FF</color>
+    <color name="app_name_color">#0869FA</color>
 
 </resources>

@@ -8,46 +8,86 @@
     tools:context=".RegisterFragment">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/login_background"
+        tools:context=".RegistrationFragment">
+
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="270dp"
+            android:text=""
+            android:textSize="50dp"
+            android:textStyle="bold"
             android:gravity="center"
-            android:textColor="@color/green"
-            android:textSize="35dp"
-            android:text="Register"
-            android:layout_marginTop="@dimen/loginViewsMargin"/>
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="5">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:hint="@string/enter_your_full_name"
+                android:textColorHint="@color/black">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/enter_your_email_id"
+                android:textColorHint="@color/black"
+                android:textSize="30dp">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/enter_your_your_user_name"
+                android:textColorHint="@color/black"
+                android:textSize="30dp">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/enter_your_password"
+                android:textColorHint="@color/black"
+                android:textSize="30sp">
+
+            </EditText>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/sign_upBTN"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:layout_gravity="center">
+
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_have_a_account_sign_here"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="26dp" />
+        </LinearLayout>
     </LinearLayout>
-        <EditText
-            android:id="@+id/editTextName"
-            style="@style/modifiedEditText"
-            android:hint="Enter Your Name"
-            android:inputType="textPersonName"
-            android:maxLines="1" />
-        <EditText
-            android:id="@+id/editTextMobile"
-            style="@style/modifiedEditText"
-            android:hint="Phone Number"
-            android:inputType="phone"
-            android:maxLines="1" />
-        <EditText
-            android:id="@+id/editTextEmail"
-            style="@style/modifiedEditText"
-            android:hint="@string/login_email_hint"
-            android:inputType="textEmailAddress"
-            android:maxLines="1" />
-        <EditText
-            android:id="@+id/editTextPassword"
-            style="@style/modifiedEditText"
-            android:hint="@string/login_password_hint"
-            android:inputType="textPassword"
-            android:maxLines="1" />
-        <Button
-        android:id="@+id/cirLoginButton"
-        style="@style/loginButton"
-        android:text="Signup"
-        android:layout_gravity="right"
-        android:layout_marginTop="@dimen/loginViewsMargin"/>
 
 </LinearLayout>
